@@ -1,0 +1,18 @@
+/* h1{
+    background-color: rgb(127, 16, 16);
+    /* border-color: rgb(30, 164, 30); */
+    /* background: border-box rgb(10, 87, 120);
+}
+
+body{
+    background: #00000000 url("rotaract.png") top left / 60px auto no-repeat;
+} */ 
+#withbackground img src{
+    background-image: url(rotaract.jpg);
+    background-size: 75% 50%;
+   
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+   }
