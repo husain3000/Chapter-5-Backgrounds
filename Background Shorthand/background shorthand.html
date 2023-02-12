@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Shorthand
+    </title>
+</head>
+<style>
+    body{
+        /* background: no-repeat center url("rotaract.jpg") rgb(136, 210, 136);
+     */
+     background: #000000 url("rotaract.jpg") top left / 600px auto no-repeat;
+
+    }
+</style>
+<body>
+    <form class="body">
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" required><br><br>
+        <label>Email:</label>
+        <input type="email" name="name" placeholder="Enter your email" required><br><br>
+        <label>Phone:</label>
+        <input type="tel" name="name" placeholder="+91 7178891273" required><br><br>
+        <label>Gender</label>
+        
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+        <br><br>
+        
+        <select name="age" id="age">
+            <option value="Select your age">Select your age</option>
+            <option value="18-25">18-25</option>
+            <option value="18-25">25-35</option>
+            <option value="18-25">35-45</option>
+            <option value="18-25">45-55</option>
+            <option value="18-25">55-55</option>
+            <option value="18-25">65-75</option>
+        </select><br><br>
+        <label>Select Your Branch</label><br>
+        <input type="checkbox" value="CSE">
+        <input type="checkbox" value="ME">
+        <input type="checkbox" value="EE">
+        <br><br>
+        <Button type="button" value="submit">Submit</Button>
+    </form>
+</body>
+</html>
